@@ -1,0 +1,1 @@
+# serenity-bot-template

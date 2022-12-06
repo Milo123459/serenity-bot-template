@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 dotenv = "0.15.0"
 serenity = { default-features = false, features = ["client", "gateway", "rustls_backend", "model", "unstable_discord_api", "collector"], version = "0.10.10" }
-tokio = { features = ["macros", "rt-multi-thread"], version = "1.17.0" }
+tokio = { features = ["macros", "rt-multi-thread"], version = "1.23.0" }
 sqlx = { version = "0.5.13", features = ["postgres", "runtime-tokio-rustls", "macros", "offline"], default-features = false }
